@@ -7,6 +7,9 @@ function data() {
     console.log(From);
     console.warn(To);
     console.error(Date);
+    document.getElementById("from").value=""   
+    document.getElementById("To").value=""
+    document.getElementById("date").value=""   
 
     if (From === "" || To === "" || Date === "") {
 
